@@ -1,0 +1,11 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        // 忽略文件夹 
+        "**/node_modules": true,
+        "**/bin": true,
+        "**/.DS_Store": true,
+        //  忽略所有xxx.meta文件
+        "**/*.meta": true
+    }
+}
