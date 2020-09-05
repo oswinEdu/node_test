@@ -4,7 +4,7 @@ const router = require('koa-router')()
 
 router.prefix('/mysql')
 
-router.get('/', function (ctx, next) {
+router.get('/', async (ctx, next) => {
     // mysql.searchByName()
 
     ctx.body = 'this is a users mysql!'

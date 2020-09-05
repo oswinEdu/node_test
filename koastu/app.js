@@ -29,7 +29,7 @@ const test = require('./test/test')
   app.use(logger())
   
   // 静态资源
-  // http: //localhost:8189/images/test_img.png
+  // http://localhost:8189/images/test_img.png
   app.use(require('koa-static')(__dirname + '/static'))
   // 网页
   app.use(views(__dirname + '/views', {
@@ -46,9 +46,28 @@ const test = require('./test/test')
   })
 
 
+  // 支持跨域请求
+  app.use(async (ctx, next) => {
+    ctx.set('Access-Control-Allow-Origin', '*');
+    ctx.set('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild');
+    ctx.set('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
+    if (ctx.method == 'OPTIONS') {
+      ctx.body = 200;
+    } else {
+      await next();
+    }
+  });
+
   // 初始化
   mysqlHelp.initMysql(config.MYSQL)
 
+
+  // 临时路由
+  const tmpRouter = require('koa-router')()
+  app.use(tmpRouter.routes(), tmpRouter.allowedMethods())
+  tmpRouter.get('/', async (ctx, next) => {
+    ctx.body = "我的koa测试";
+  });
 
   // 路由
   app.use(index.routes(), index.allowedMethods())

@@ -34,7 +34,8 @@ const development = {
 
     //服务器端口
     // SERVER_PORT: 3000,
-    SERVER_PORT: 8189,
+    SERVER_PORT: 8188,
+    // SERVER_PORT: 7456,
 
     //REDIS配置
     REDIS: {
