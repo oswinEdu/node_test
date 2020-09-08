@@ -1,0 +1,17 @@
+{
+  "name": "node_updatejs",
+  "version": "1.0.0",
+  "description": "update",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ali-oss": "^6.1.1",
+    "colors": "^1.4.0",
+    "node-downloader-helper": "^1.0.11",
+    "qiniu": "^7.2.2"
+  }
+}

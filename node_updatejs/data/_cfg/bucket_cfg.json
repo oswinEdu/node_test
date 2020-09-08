@@ -1,0 +1,15 @@
+{
+	"main_bucket": "test-update-file",
+	"main_domain":"",
+    "buckets": [{
+        "bucket_name": "test-wjh-useall",
+        "tag": 0,
+        "domain": "1223"
+    },
+    {
+        "bucket_name": "test-down-file",
+        "tag": 1,
+        "domain": "1223"
+    }
+	]
+}

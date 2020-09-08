@@ -1,0 +1,25 @@
+{
+    "ten_thousand": 0,
+    "is_part_update": false,
+    "is_last_back": false,
+    "devices_id": [
+        "aa",
+        "bb"
+    ],
+    "user_id": [
+        "11",
+        "22"
+    ],
+    "buckets": [
+        {
+            "bucket_name": "test-wjh-useall",
+            "tag": 0,
+            "domain": "1223"
+        },
+        {
+            "bucket_name": "test-down-file",
+            "tag": 1,
+            "domain": "1223"
+        }
+    ]
+}

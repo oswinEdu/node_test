@@ -1,0 +1,12 @@
+{
+    "update_version":"12.3.2",
+    "ten_thousand":10,
+    "devices_id": [
+        "aa",
+        "bb"
+    ],
+    "user_id": [
+        "11",
+        "22"
+    ]
+}

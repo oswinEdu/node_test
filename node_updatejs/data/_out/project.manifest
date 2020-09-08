@@ -1,0 +1,30 @@
+{
+    "packageUrl": "",
+    "remoteVersionUrl": "",
+    "remoteManifestUrl": "",
+    "packageUrlBackup": "",
+    "remoteVersionUrlBackup": "",
+    "remoteManifestUrlBackup": "",
+    "domainNameList": [
+        "1",
+        "2"
+    ],
+    "version": "12.3.2",
+    "assets": {
+        "res/AZN@2x.png": "300fa279ce11929e8750d5da104b1a46",
+        "res/BBD@2x.png": "98254122b3716194865ffe51eedb3730",
+        "res/BDT@2x.png": "92eb6dc5112bb01f30dbbad9bff262e9",
+        "res/BGN@2x.png": "137610f392789d22e7ff2305577ae9f9",
+        "res/BHD@2x.png": "ee9be19addd90d5dcc1d9326a75baffa",
+        "res/BRL@2x.png": "f0b5ab399eb6f77fe6b17c7be2269cf8",
+        "res/BSD@2x.png": "8faa3a70d0959fd8bd1e07c24a954b6a",
+        "res/BWP@2x.png": "6cb41f54084b5ef861c2fa537e838f28",
+        "res/deer_logo.png": "3588c439fa151ad3ae4f41b51174301f",
+        "res/meka/2.png": "c2e0e1e185e5c09c27f091bd3297347c",
+        "res/meka/3.png": "6c95c6533114c8949fb302b264b5b482",
+        "src_et/aa/cfgconfig.luac": "13bcdff3079036a2a624a0012962894c",
+        "src_et/aa/test/config.luac": "b10747f914b8b94d7762b20a5dcddd84",
+        "src_et/kk/cfgiosprodlist.luac": "d83cb69a0835152c486e16cda2c862ec",
+        "src_et/main.luac": "70fa7464ae5ded8d2a562c0d85d99a91"
+    }
+}
